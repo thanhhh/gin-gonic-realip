@@ -1,4 +1,4 @@
-## Gin's RealIP Middleware
+## Gin's Real IP Middleware
 
 [Gin](https://github.com/gin-gonic/gin)'s Real IP middleware to set a http.Request's RemoteAddr to the results of parsing either the X-Forwarded-For header or the X-Real-IP header.
 
@@ -15,7 +15,7 @@ import (
 func main() {
   r := gin.New() // without any middlewares
 
-  router.Use(middleware.RealIP())
+  router.Use(realip.RealIP())
 
   r.Get("/", func() string {
     return "Hello world!"

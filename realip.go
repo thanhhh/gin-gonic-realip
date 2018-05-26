@@ -1,4 +1,4 @@
-package middleware
+package realip
 
 // Ported from Goji's middleware, source:
 // https://github.com/zenazn/goji/tree/master/web/middleware

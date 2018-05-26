@@ -1,4 +1,4 @@
-package middleware
+package realip
 
 import (
 	"net/http"
